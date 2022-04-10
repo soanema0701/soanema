@@ -1,0 +1,49 @@
+.saitorogo{
+  width: 41px;
+  height: 41px;
+  position: absolute;
+  left: 2.3%;
+}
+
+.saitomei{
+  font-size: 20px;
+  position: absolute;
+  left: 7%;
+  top: -0.8%;
+}
+nav{
+  width: 100%;
+  height: 70px;
+}
+ul{
+  display: flex;
+}
+li{
+  list-style: none;
+}
+a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-right: 35px;
+}
+.header-right{
+  position: absolute;
+  right: 2.3%;
+  top: 1%;
+}
+/*480px以下はこのように設定する*/
+@media screen and (max-width:767px) {
+  .saitorogo{
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    left: 6.8%;
+  }
+  .saitomei{
+    font-size: 18.7px;
+    position: absolute;
+    left: 14.7%;
+    top: -0.7%;
+  }
+}
